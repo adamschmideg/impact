@@ -2,7 +2,7 @@
 staging:
   type: deploy
   script:
-  - apt-get update -q && apt-get install jq
+  - apt-get update -q && apt-get install -y jq
   - pip install --upgrade -r requirements.txt
   - ./godoc.sh
   only: 
