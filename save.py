@@ -13,6 +13,7 @@
 # limitations under the License.
 
 from __future__ import print_function
+import argparse
 import pickle
 import os.path
 from googleapiclient.discovery import build
@@ -52,18 +53,27 @@ def get_sheet():
     # Call the Sheets API
     return service.spreadsheets().values()
 
+def get_args():
+    parser = argparse.ArgumentParser(description='Save to a google sheet')
+    parser.add_argument('--cell-range', dest='cell_range', required=True)
+    parser.add_argument('--sheet-id', dest='sheet_id', default=SPREADSHEET_ID)
+    parser.add_argument('--value', dest='value', required=True)
+    return parser.parse_args()
+
 def main():
     """Shows basic usage of the Sheets API.
     Prints values from a sample spreadsheet.
     """
     sheet = get_sheet()
+    args = get_args()
+    print('args', args)
     resource = {
             #"majorDimension": "ROW", 
-            "values": [[21]]}
+            "values": [[args.value]]}
     #result = sheet.append(spreadsheetId=SPREADSHEET_ID, range=RANGE, body=resource).execute()
     result = sheet.append(
-            spreadsheetId=SPREADSHEET_ID,
-            range='A2:A5', 
+            spreadsheetId=args.sheet_id,
+            range=args.cell_range,
             body=resource,
             valueInputOption="USER_ENTERED"
             ).execute()
