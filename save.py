@@ -14,11 +14,15 @@
 
 from __future__ import print_function
 import argparse
+import json
 import pickle
+from os import environ
 import os.path
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
+
+from google.oauth2.credentials import Credentials
 
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
@@ -28,6 +32,16 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 SPREADSHEET_ID = '1akipBBkbzSqwDr9YA3qn9enKLKCtOm6j-fo-VQfHdIc'
 RANGE = 'Sheet1!A2:A5'
 
+def make_credentials():
+    creds = Credentials('dummy')
+    creds._client_id = environ['CLIENT_ID']
+    creds._client_secret = environ['CLIENT_SECRET']
+    creds._refresh_token = environ['REFRESH_TOKEN']
+    creds.token = environ['ACCESS_TOKEN']
+    creds._token_uri = "https://oauth2.googleapis.com/token"
+    creds._scopes = SCOPES
+    return creds
+
 def get_sheet():
     creds = None
     # The file token.pickle stores the user's access and refresh tokens, and is
@@ -35,18 +49,25 @@ def get_sheet():
     # time.
     if os.path.exists('token.pickle'):
         with open('token.pickle', 'rb') as token:
-            creds = pickle.load(token)
+            good_creds = pickle.load(token)
+            import pdb
+            creds = Credentials('foobar')
+            creds.token = good_creds.token
+            #pdb.set_trace()
+            creds.refresh_token = good_creds.refresh_token
     # If there are no (valid) credentials available, let the user log in.
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
-        else:
+        elif os.path.exists('credentials.json'):
             flow = InstalledAppFlow.from_client_secrets_file(
                 'credentials.json', SCOPES)
             creds = flow.run_local_server()
-        # Save the credentials for the next run
-        with open('token.pickle', 'wb') as token:
-            pickle.dump(creds, token)
+            # Save the credentials for the next run
+            with open('token.pickle', 'wb') as token:
+                pickle.dump(creds, token)
+        else:
+            creds = make_credentials()
 
     service = build('sheets', 'v4', credentials=creds)
 
