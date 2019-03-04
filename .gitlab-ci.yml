@@ -1,0 +1,9 @@
+
+staging:
+  type: deploy
+  script:
+    - apt-get install jq
+    - pip install --upgrade -r requirements.txt
+    - ./godoc.sh
+  only: master
+  
