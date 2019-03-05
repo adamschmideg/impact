@@ -28,9 +28,7 @@ from google.oauth2.credentials import Credentials
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
 # The ID and range of a sample spreadsheet.
-#SAMPLE_SPREADSHEET_ID = '1hjvBzOVRnybuAHkbgbJ1bURRmpUnxrmoxYbZPwLh3sw'
 SPREADSHEET_ID = '1akipBBkbzSqwDr9YA3qn9enKLKCtOm6j-fo-VQfHdIc'
-RANGE = 'Sheet1!A2:A5'
 
 def make_credentials():
     creds = Credentials('dummy')
@@ -49,12 +47,7 @@ def get_sheet():
     # time.
     if os.path.exists('token.pickle'):
         with open('token.pickle', 'rb') as token:
-            good_creds = pickle.load(token)
-            import pdb
-            creds = Credentials('foobar')
-            creds.token = good_creds.token
-            #pdb.set_trace()
-            creds.refresh_token = good_creds.refresh_token
+            creds = pickle.load(token)
     # If there are no (valid) credentials available, let the user log in.
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
@@ -78,7 +71,7 @@ def get_args():
     parser = argparse.ArgumentParser(description='Save to a google sheet')
     parser.add_argument('--cell-range', dest='cell_range', required=True)
     parser.add_argument('--sheet-id', dest='sheet_id', default=SPREADSHEET_ID)
-    parser.add_argument('--value', dest='value', required=True)
+    parser.add_argument('values', nargs='+')
     return parser.parse_args()
 
 def main():
@@ -89,24 +82,16 @@ def main():
     args = get_args()
     print('args', args)
     resource = {
-            #"majorDimension": "ROW", 
-            "values": [[args.value]]}
-    #result = sheet.append(spreadsheetId=SPREADSHEET_ID, range=RANGE, body=resource).execute()
+            #"majorDimension": "COLUMNS", 
+            "values": [args.values]}
+    #import pdb; pdb.set_trace()
     result = sheet.append(
             spreadsheetId=args.sheet_id,
             range=args.cell_range,
             body=resource,
             valueInputOption="USER_ENTERED"
             ).execute()
-    values = result.get('values', [])
-
-    if not values:
-        print('No data found.')
-    else:
-        print('Name, Major:')
-        for row in values:
-            # Print columns A and E, which correspond to indices 0 and 4.
-            print('%s, %s' % (row[0], row[4]))
+    print(result)
 
 if __name__ == '__main__':
     main()
