@@ -1,0 +1,26 @@
+{
+  repository(owner: "ethereum", name: "go-ethereum") {
+    issues(last: 20) {
+      edges {
+        node {
+          title
+          participants(first: 10) {
+            edges {
+              node {
+                login
+                organizations(first:10) {
+                  edges {
+                    node {
+                      name
+                      url
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
