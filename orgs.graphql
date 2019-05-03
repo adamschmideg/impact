@@ -1,0 +1,16 @@
+{
+  u1: user(login: "karalabe") { ...orgs }
+  u2: user(login: "holiman") { ...orgs }
+}
+
+fragment orgs on User {
+  login
+  organizations(first: 9) {
+    edges {
+      node {
+        name
+        url
+      }
+    }
+  }
+}
