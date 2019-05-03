@@ -1,0 +1,1496 @@
+{
+  "data": {
+    "u1": {
+      "login": "karalabe",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          },
+          {
+            "node": {
+              "name": "Project Iris",
+              "url": "https://github.com/project-iris"
+            }
+          },
+          {
+            "node": {
+              "name": "Ether APIs",
+              "url": "https://github.com/etherapis"
+            }
+          },
+          {
+            "node": {
+              "name": "Puppeth",
+              "url": "https://github.com/puppeth"
+            }
+          },
+          {
+            "node": {
+              "name": "InterPlanetary Social Network",
+              "url": "https://github.com/ipsn"
+            }
+          }
+        ]
+      }
+    },
+    "u2": {
+      "login": "holiman",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          }
+        ]
+      }
+    },
+    "u3": null,
+    "u4": {
+      "login": "GitCop",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u5": {
+      "login": "fjl",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          },
+          {
+            "node": {
+              "name": "Ethersphere",
+              "url": "https://github.com/ethersphere"
+            }
+          }
+        ]
+      }
+    },
+    "u6": {
+      "login": "ligi",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "K-9 Mail",
+              "url": "https://github.com/k9mail"
+            }
+          },
+          {
+            "node": {
+              "name": "c-base",
+              "url": "https://github.com/c-base"
+            }
+          },
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          },
+          {
+            "node": {
+              "name": "Critical Maps",
+              "url": "https://github.com/criticalmaps"
+            }
+          },
+          {
+            "node": {
+              "name": "esPass",
+              "url": "https://github.com/esPass"
+            }
+          },
+          {
+            "node": {
+              "name": "Survival Manual",
+              "url": "https://github.com/survivalmanual"
+            }
+          },
+          {
+            "node": {
+              "name": "Berlin Hack & Tell",
+              "url": "https://github.com/berlin-hack-and-tell"
+            }
+          },
+          {
+            "node": {
+              "name": "WallΞTH",
+              "url": "https://github.com/walleth"
+            }
+          },
+          {
+            "node": {
+              "name": "ethereum-lists",
+              "url": "https://github.com/ethereum-lists"
+            }
+          }
+        ]
+      }
+    },
+    "u7": {
+      "login": "nonsense",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Boxen",
+              "url": "https://github.com/boxen"
+            }
+          },
+          {
+            "node": {
+              "name": "powpark",
+              "url": "https://github.com/powpark"
+            }
+          },
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          },
+          {
+            "node": {
+              "name": "Ethersphere",
+              "url": "https://github.com/ethersphere"
+            }
+          }
+        ]
+      }
+    },
+    "u8": {
+      "login": "rjl493456442",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          },
+          {
+            "node": {
+              "name": "Puppeth",
+              "url": "https://github.com/puppeth"
+            }
+          }
+        ]
+      }
+    },
+    "u9": {
+      "login": "gballet",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          }
+        ]
+      }
+    },
+    "u10": {
+      "login": "ryanschneider",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u11": {
+      "login": "gitcoinbot",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Gitcoin Core",
+              "url": "https://github.com/gitcoinco"
+            }
+          }
+        ]
+      }
+    },
+    "u12": {
+      "login": "veox",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Libbitcoin",
+              "url": "https://github.com/libbitcoin"
+            }
+          }
+        ]
+      }
+    },
+    "u13": {
+      "login": "adamschmideg",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Nodeclipse",
+              "url": "https://github.com/Nodeclipse"
+            }
+          },
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          },
+          {
+            "node": {
+              "name": "Ethersphere",
+              "url": "https://github.com/ethersphere"
+            }
+          },
+          {
+            "node": {
+              "name": "bcug",
+              "url": "https://github.com/bcug"
+            }
+          },
+          {
+            "node": {
+              "name": "Trilogy",
+              "url": "https://github.com/trilogy-group"
+            }
+          },
+          {
+            "node": {
+              "name": "Ethereum Cat Herders",
+              "url": "https://github.com/ethereum-cat-herders"
+            }
+          }
+        ]
+      }
+    },
+    "u14": {
+      "login": "vogelito",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Bitso",
+              "url": "https://github.com/bitsoex"
+            }
+          }
+        ]
+      }
+    },
+    "u15": {
+      "login": "justelad",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          },
+          {
+            "node": {
+              "name": "Ethersphere",
+              "url": "https://github.com/ethersphere"
+            }
+          }
+        ]
+      }
+    },
+    "u16": {
+      "login": "hadv",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Nexty Platform",
+              "url": "https://github.com/nextyio"
+            }
+          }
+        ]
+      }
+    },
+    "u17": {
+      "login": "PaulRBerg",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Sablier App",
+              "url": "https://github.com/SablierApp"
+            }
+          }
+        ]
+      }
+    },
+    "u18": {
+      "login": "jsvisa",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "bay6",
+              "url": "https://github.com/bay6"
+            }
+          }
+        ]
+      }
+    },
+    "u19": {
+      "login": "lhendre",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Health Nexus",
+              "url": "https://github.com/Health-Nexus"
+            }
+          }
+        ]
+      }
+    },
+    "u20": {
+      "login": "zsfelfoldi",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          },
+          {
+            "node": {
+              "name": "Ethersphere",
+              "url": "https://github.com/ethersphere"
+            }
+          }
+        ]
+      }
+    },
+    "u21": {
+      "login": "sivachaitanya",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u22": {
+      "login": "nolash",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          },
+          {
+            "node": {
+              "name": "Ethersphere",
+              "url": "https://github.com/ethersphere"
+            }
+          }
+        ]
+      }
+    },
+    "u23": {
+      "login": "chfast",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          },
+          {
+            "node": {
+              "name": "imapp.pl",
+              "url": "https://github.com/imapp-pl"
+            }
+          }
+        ]
+      }
+    },
+    "u24": {
+      "login": "philsmd",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "hashcat",
+              "url": "https://github.com/hashcat"
+            }
+          }
+        ]
+      }
+    },
+    "u25": {
+      "login": "dshulyak",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Mirantis Inc.",
+              "url": "https://github.com/Mirantis"
+            }
+          },
+          {
+            "node": {
+              "name": "Status",
+              "url": "https://github.com/status-im"
+            }
+          },
+          {
+            "node": {
+              "name": "Kubernetes",
+              "url": "https://github.com/kubernetes"
+            }
+          }
+        ]
+      }
+    },
+    "u26": {
+      "login": "homotopycolimit",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          },
+          {
+            "node": {
+              "name": "Ethersphere",
+              "url": "https://github.com/ethersphere"
+            }
+          }
+        ]
+      }
+    },
+    "u27": {
+      "login": "avatar-lavventura",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "eBloc",
+              "url": "https://github.com/ebloc"
+            }
+          }
+        ]
+      }
+    },
+    "u28": {
+      "login": "shazow",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Python Libs",
+              "url": "https://github.com/core"
+            }
+          },
+          {
+            "node": {
+              "name": "Keybase",
+              "url": "https://github.com/keybase"
+            }
+          },
+          {
+            "node": {
+              "name": "Glider Labs",
+              "url": "https://github.com/gliderlabs"
+            }
+          },
+          {
+            "node": {
+              "name": "Hello Web Books",
+              "url": "https://github.com/hellowebbooks"
+            }
+          },
+          {
+            "node": {
+              "name": "urllib3",
+              "url": "https://github.com/urllib3"
+            }
+          },
+          {
+            "node": {
+              "name": "Merry Merkle",
+              "url": "https://github.com/MerryMerkle"
+            }
+          },
+          {
+            "node": {
+              "name": "vipnode",
+              "url": "https://github.com/vipnode"
+            }
+          }
+        ]
+      }
+    },
+    "u29": null,
+    "u30": {
+      "login": "marcosmartinez7",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u31": null,
+    "u32": {
+      "login": "AlexeyAkhunov",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u33": {
+      "login": "jurgenfink",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u34": {
+      "login": "jpeletier",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Ethersphere",
+              "url": "https://github.com/ethersphere"
+            }
+          }
+        ]
+      }
+    },
+    "u35": {
+      "login": "destenson",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u36": {
+      "login": "GeeeCoin",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u37": {
+      "login": "lmars",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Flynn",
+              "url": "https://github.com/flynn"
+            }
+          },
+          {
+            "node": {
+              "name": "Ethersphere",
+              "url": "https://github.com/ethersphere"
+            }
+          },
+          {
+            "node": {
+              "name": "JAAK",
+              "url": "https://github.com/jaakmusic"
+            }
+          },
+          {
+            "node": {
+              "name": "MΞTA Network",
+              "url": "https://github.com/meta-network"
+            }
+          },
+          {
+            "node": {
+              "name": "kord-network",
+              "url": "https://github.com/kord-network"
+            }
+          }
+        ]
+      }
+    },
+    "u38": {
+      "login": "janos",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          },
+          {
+            "node": {
+              "name": "Ethersphere",
+              "url": "https://github.com/ethersphere"
+            }
+          },
+          {
+            "node": {
+              "name": "GopherPit",
+              "url": "https://github.com/gopherpit"
+            }
+          }
+        ]
+      }
+    },
+    "u39": {
+      "login": "drandreaskrueger",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u40": {
+      "login": "paulvi",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Nodeclipse",
+              "url": "https://github.com/Nodeclipse"
+            }
+          },
+          {
+            "node": {
+              "name": "Funshion Online",
+              "url": "https://github.com/funshion"
+            }
+          },
+          {
+            "node": {
+              "name": "Eclipse DemoCamps",
+              "url": "https://github.com/Eclipse-DemoCamps"
+            }
+          },
+          {
+            "node": {
+              "name": "Eclipse China",
+              "url": "https://github.com/Eclipse-China"
+            }
+          }
+        ]
+      }
+    },
+    "u41": {
+      "login": "b00ris",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u42": {
+      "login": "YaoZengzeng",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Jenkins",
+              "url": "https://github.com/jenkinsci"
+            }
+          },
+          {
+            "node": {
+              "name": "The Very Large Information System Lab of Zhejiang University",
+              "url": "https://github.com/ZJU-SEL"
+            }
+          },
+          {
+            "node": {
+              "name": "Hyper.sh",
+              "url": "https://github.com/hyperhq"
+            }
+          },
+          {
+            "node": {
+              "name": "PouchContainer",
+              "url": "https://github.com/pouchcontainer"
+            }
+          }
+        ]
+      }
+    },
+    "u43": {
+      "login": "REPTILEHAUS",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u44": {
+      "login": "siong1987",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Ruby Grape",
+              "url": "https://github.com/ruby-grape"
+            }
+          }
+        ]
+      }
+    },
+    "u45": {
+      "login": "lionello",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "新车间",
+              "url": "https://github.com/xinchejian"
+            }
+          },
+          {
+            "node": {
+              "name": "DimSumLabs",
+              "url": "https://github.com/dimsumlabs"
+            }
+          },
+          {
+            "node": {
+              "name": "Enuma Technologies",
+              "url": "https://github.com/enumatech"
+            }
+          },
+          {
+            "node": {
+              "name": "LiLMiPMaP",
+              "url": "https://github.com/LiLMiPMaP"
+            }
+          }
+        ]
+      }
+    },
+    "u46": {
+      "login": "zelig",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          },
+          {
+            "node": {
+              "name": "Ethersphere",
+              "url": "https://github.com/ethersphere"
+            }
+          }
+        ]
+      }
+    },
+    "u47": {
+      "login": "hello2mao",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Baidu",
+              "url": "https://github.com/baidu"
+            }
+          },
+          {
+            "node": {
+              "name": "Kubernetes",
+              "url": "https://github.com/kubernetes"
+            }
+          },
+          {
+            "node": {
+              "name": "ServiceMesher",
+              "url": "https://github.com/servicemesher"
+            }
+          }
+        ]
+      }
+    },
+    "u48": null,
+    "u49": {
+      "login": "kielbarry",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u50": {
+      "login": "stevenroose",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Dartcoin",
+              "url": "https://github.com/dartcoin"
+            }
+          },
+          {
+            "node": {
+              "name": "ElementsProject",
+              "url": "https://github.com/ElementsProject"
+            }
+          },
+          {
+            "node": {
+              "name": "Pointy Castle",
+              "url": "https://github.com/PointyCastle"
+            }
+          }
+        ]
+      }
+    },
+    "u51": {
+      "login": "4ntoine",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u52": {
+      "login": "reductionista",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Archive of MADlib Project",
+              "url": "https://github.com/madlib"
+            }
+          }
+        ]
+      }
+    },
+    "u53": {
+      "login": "RichHorrocks",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u54": {
+      "login": "gbalint",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          },
+          {
+            "node": {
+              "name": "Ethersphere",
+              "url": "https://github.com/ethersphere"
+            }
+          }
+        ]
+      }
+    },
+    "u55": {
+      "login": "illya13",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u56": {
+      "login": "holisticode",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          },
+          {
+            "node": {
+              "name": "Ethersphere",
+              "url": "https://github.com/ethersphere"
+            }
+          }
+        ]
+      }
+    },
+    "u57": {
+      "login": "Othman21",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u58": null,
+    "u59": {
+      "login": "RaghavSood",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Open Leap",
+              "url": "https://github.com/openleap"
+            }
+          }
+        ]
+      }
+    },
+    "u60": {
+      "login": "wuestholz",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Boogie",
+              "url": "https://github.com/boogie-org"
+            }
+          }
+        ]
+      }
+    },
+    "u61": {
+      "login": "bizlevel",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u62": {
+      "login": "vincentserpoul",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u63": {
+      "login": "Crypto2",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u64": {
+      "login": "axic",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Made in Dublin",
+              "url": "https://github.com/madeindublin"
+            }
+          },
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          },
+          {
+            "node": {
+              "name": "Iudex",
+              "url": "https://github.com/iudex"
+            }
+          },
+          {
+            "node": {
+              "name": "EthereumJS",
+              "url": "https://github.com/ethereumjs"
+            }
+          },
+          {
+            "node": {
+              "name": "Quorum Wallet",
+              "url": "https://github.com/quorumwallet"
+            }
+          },
+          {
+            "node": {
+              "name": "ewasm",
+              "url": "https://github.com/ewasm"
+            }
+          },
+          {
+            "node": {
+              "name": "ethjs",
+              "url": "https://github.com/ethjs"
+            }
+          },
+          {
+            "node": {
+              "name": "Open Source Maintainers on GitHub",
+              "url": "https://github.com/maintainers"
+            }
+          },
+          {
+            "node": {
+              "name": "Primea",
+              "url": "https://github.com/primea"
+            }
+          }
+        ]
+      }
+    },
+    "u65": {
+      "login": "tinschel",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u66": {
+      "login": "jwasinger",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          },
+          {
+            "node": {
+              "name": "EthereumJS",
+              "url": "https://github.com/ethereumjs"
+            }
+          },
+          {
+            "node": {
+              "name": "ewasm",
+              "url": "https://github.com/ewasm"
+            }
+          },
+          {
+            "node": {
+              "name": "Görli Testnet",
+              "url": "https://github.com/goerli"
+            }
+          }
+        ]
+      }
+    },
+    "u67": {
+      "login": "SvenMeyer",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u68": {
+      "login": "wtfiwtz",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u69": {
+      "login": "liuzhijun23",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u70": {
+      "login": "satoshi101",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u71": {
+      "login": "Swader",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u72": {
+      "login": "frncmx",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          },
+          {
+            "node": {
+              "name": "Ethersphere",
+              "url": "https://github.com/ethersphere"
+            }
+          }
+        ]
+      }
+    },
+    "u73": null,
+    "u74": {
+      "login": "haint87",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Nexty Platform",
+              "url": "https://github.com/nextyio"
+            }
+          }
+        ]
+      }
+    },
+    "u75": {
+      "login": "ArchetypicalDude",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u76": {
+      "login": "stelloxx",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u77": null,
+    "u78": {
+      "login": "wcw84",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u79": {
+      "login": "liwei00wade",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u80": {
+      "login": "tyramisoux",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u81": null,
+    "u82": {
+      "login": "dksuper",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u83": {
+      "login": "gluk256",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "ethereum",
+              "url": "https://github.com/ethereum"
+            }
+          },
+          {
+            "node": {
+              "name": "Ethersphere",
+              "url": "https://github.com/ethersphere"
+            }
+          }
+        ]
+      }
+    },
+    "u84": {
+      "login": "bmperrea",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Paxos",
+              "url": "https://github.com/paxosglobal"
+            }
+          }
+        ]
+      }
+    },
+    "u85": {
+      "login": "favadi",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "KyberNetwork",
+              "url": "https://github.com/KyberNetwork"
+            }
+          }
+        ]
+      }
+    },
+    "u86": {
+      "login": "ekryski",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "YYC.js",
+              "url": "https://github.com/yycjs"
+            }
+          },
+          {
+            "node": {
+              "name": "Feathers",
+              "url": "https://github.com/feathersjs"
+            }
+          },
+          {
+            "node": {
+              "name": "Bullish",
+              "url": "https://github.com/bullish-ventures"
+            }
+          },
+          {
+            "node": {
+              "name": "Feathers Ecosystem",
+              "url": "https://github.com/feathersjs-ecosystem"
+            }
+          }
+        ]
+      }
+    },
+    "u87": {
+      "login": "pschlump",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u88": {
+      "login": "smartwombat",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u89": {
+      "login": "postables",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "RTrade Technologies Ltd",
+              "url": "https://github.com/RTradeLtd"
+            }
+          }
+        ]
+      }
+    },
+    "u90": {
+      "login": "nklak",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u91": {
+      "login": "hackmod",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Ellaism",
+              "url": "https://github.com/ellaism"
+            }
+          },
+          {
+            "node": {
+              "name": "Open Community Coin Group",
+              "url": "https://github.com/OpenCommunityCoin"
+            }
+          },
+          {
+            "node": {
+              "name": "Ethersocial Network",
+              "url": "https://github.com/EthersocialNetwork"
+            }
+          }
+        ]
+      }
+    },
+    "u92": {
+      "login": "kyriediculous",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u93": {
+      "login": "vdamle",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u94": {
+      "login": "islishude",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u95": {
+      "login": "MicahZoltu",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Augur Project",
+              "url": "https://github.com/AugurProject"
+            }
+          },
+          {
+            "node": {
+              "name": "Zoltu",
+              "url": "https://github.com/Zoltu"
+            }
+          }
+        ]
+      }
+    },
+    "u96": {
+      "login": "facundomedica",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Apperto",
+              "url": "https://github.com/apperto"
+            }
+          }
+        ]
+      }
+    },
+    "u97": {
+      "login": "mikerowehl",
+      "organizations": {
+        "edges": [
+          {
+            "node": {
+              "name": "Churn Labs",
+              "url": "https://github.com/churnlabs"
+            }
+          },
+          {
+            "node": {
+              "name": "armory",
+              "url": "https://github.com/armory"
+            }
+          }
+        ]
+      }
+    },
+    "u98": {
+      "login": "motafa1320",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u99": {
+      "login": "MysticRyuujin",
+      "organizations": {
+        "edges": []
+      }
+    },
+    "u100": {
+      "login": "mykolasmith",
+      "organizations": {
+        "edges": []
+      }
+    }
+  },
+  "errors": [
+    {
+      "type": "NOT_FOUND",
+      "path": [
+        "u3"
+      ],
+      "locations": [
+        {
+          "line": 4,
+          "column": 1
+        }
+      ],
+      "message": "Could not resolve to a User with the login of 'stale[bot]'."
+    },
+    {
+      "type": "NOT_FOUND",
+      "path": [
+        "u29"
+      ],
+      "locations": [
+        {
+          "line": 30,
+          "column": 1
+        }
+      ],
+      "message": "Could not resolve to a User with the login of 'eosclassicteam'."
+    },
+    {
+      "type": "NOT_FOUND",
+      "path": [
+        "u31"
+      ],
+      "locations": [
+        {
+          "line": 32,
+          "column": 1
+        }
+      ],
+      "message": "Could not resolve to a User with the login of 'intizarabe'."
+    },
+    {
+      "type": "NOT_FOUND",
+      "path": [
+        "u48"
+      ],
+      "locations": [
+        {
+          "line": 49,
+          "column": 1
+        }
+      ],
+      "message": "Could not resolve to a User with the login of 'no-response[bot]'."
+    },
+    {
+      "type": "NOT_FOUND",
+      "path": [
+        "u58"
+      ],
+      "locations": [
+        {
+          "line": 59,
+          "column": 1
+        }
+      ],
+      "message": "Could not resolve to a User with the login of 'hbbmt'."
+    },
+    {
+      "type": "NOT_FOUND",
+      "path": [
+        "u73"
+      ],
+      "locations": [
+        {
+          "line": 74,
+          "column": 1
+        }
+      ],
+      "message": "Could not resolve to a User with the login of 'naikmyeong'."
+    },
+    {
+      "type": "NOT_FOUND",
+      "path": [
+        "u77"
+      ],
+      "locations": [
+        {
+          "line": 78,
+          "column": 1
+        }
+      ],
+      "message": "Could not resolve to a User with the login of 'fxer'."
+    },
+    {
+      "type": "NOT_FOUND",
+      "path": [
+        "u81"
+      ],
+      "locations": [
+        {
+          "line": 82,
+          "column": 1
+        }
+      ],
+      "message": "Could not resolve to a User with the login of 'WalterBoles'."
+    }
+  ]
+}
